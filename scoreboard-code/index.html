@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scoreboard</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Playpen+Sans:wght@300&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img src="/image/Techiesta Logo.png" alt="leftlogo" class="logo-left" width="210" height="165">
+    <img src="/image/MGCPS Logo White.png" alt="rightlogo" class="logo-right" width="200" height="120">
+    <div class="tech">
+        <h1>Modern Girls' College Of Professional Studies</h1>
+        <h1>TECHIESTA 7.0</h1>
+        <pre><h1>WHERE TECHNOLOGY MEETS CREATIVITY  </h1></pre>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="scoreboard">
+        <section class="bar1">
+
+            <div class="team" id="team1">
+                <h2><img src="/image/emg1.png" alt="" width="90" height="65">Team A</h2>
+                <p>Score: <span id="score1">0</span></p>
+                <button onclick="updateScore(1, 20)">Add 20</button>
+                <button onclick="updateScore(1, -10)">Deduct 10</button>
+            </div>
+
+            <div class="team" id="team2">
+                <h2><img src="/image/emg2.png" alt="" width="90" height="65">Team B</h2>
+                <p>Score: <span id="score2">0</span></p>
+                <button onclick="updateScore(2, 20)">Add 20</button>
+                <button onclick="updateScore(2, -10)">Deduct 10</button>
+            </div>
+
+            <div class="team" id="team3">
+                <h2><img src="/image/emg1.png" alt="" width="90" height="65">Team C</h2>
+                <p>Score: <span id="score3">0</span></p>
+                <button onclick="updateScore(3, 20)">Add 20</button>
+                <button onclick="updateScore(3, -10)">Deduct 10</button>
+            </div>
+        </section>
+        <div class="techie">
+            <h1>Tech Quiz</h1>
+        </div>
+
+        <section class="bar2">
+            <div class="team" id="team4">
+                <h2><img src="/image/emg1.png" alt="" width="90" height="65">Team D</h2>
+                <p>Score: <span id="score4">0</span></p>
+                <button onclick="updateScore(4, 20)">Add 20</button>
+                <button onclick="updateScore(4, -10)">Deduct 10</button>
+            </div>
+
+            <div class="team" id="team5">
+                <h2><img src="/image/emg2.png" alt="" width="90" height="65">Team E</h2>
+                <p>Score: <span id="score5">0</span></p>
+                <button onclick="updateScore(5, 20)">Add 20</button>
+                <button onclick="updateScore(5, -10)">Deduct 10</button>
+            </div>
+
+            <div class="team" id="team6">
+                <h2><img src="/image/emg1.png" alt="" width="90" height="65">Team F</h2>
+                <p>Score: <span id="score6">0</span></p>
+                <button onclick="updateScore(6, 20)">Add 20</button>
+                <button onclick="updateScore(6, -10)">Deduct 10</button>
+            </div>
+
+        </section>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

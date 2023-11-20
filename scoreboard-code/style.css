@@ -1,0 +1,86 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #860A35;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bar1{
+    color: aliceblue; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%; 
+    margin-bottom: 6%;
+}
+.bar2{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 4%; 
+    margin-bottom: 6%; 
+}
+.logo-left{
+    float: left; 
+    margin-right: 2px;
+}
+.Right{
+   color: aliceblue;
+   
+}
+.logo-right{
+    float: right; 
+    margin-left: 2px;
+}
+.tech{
+    margin-top: 0%;
+    text-align: center;
+    color: aliceblue;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+.techie{
+    margin-top: 10%;
+    margin-left: 4%;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: medium;
+    height: auto;
+}
+.team {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+.team h2 img{
+    margin-right: 10px;
+    margin-left: 2%;
+}
+.team p {
+    font-size: 20px;
+}
+button {
+    padding: 2px 4px;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 4px;
+    box-shadow: none;
+    justify-content: center;    
+}
